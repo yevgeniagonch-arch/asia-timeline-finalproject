@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yevgeniia Goncharenko – Asia Adventure</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- SECTION 1: HEADLINE -->
+  <div id="headline-section">
+    <div id="headline-inner">
+      <p id="tagline">✦ A Journey Through Southeast Asia ✦</p>
+      <h1 id="main-headline">Yevgeniia's<br/>Asian Odyssey</h1>
+      <p id="subheadline">Thailand &nbsp;·&nbsp; Indonesia &nbsp;·&nbsp; Malaysia &nbsp;·&nbsp; Vietnam</p>
+    </div>
+  </div>
+
+  <!-- SECTION 2: DESCRIPTION -->
+  <div id="description-section">
+    <div id="description-inner">
+      <p id="context-paragraph">
+        In the spring of 2024, Yevgeniia Goncharenko embarked on a four-country backpacking adventure across Southeast Asia — a region that blends ancient temples, vibrant street markets, emerald rice terraces, and some of the world's most breathtaking coastlines. From the bustling night bazaars of Bangkok to the volcanic peaks of Bali, every stop brought new flavors, faces, and unforgettable memories.
+      </p>
+
+      <p>Want to learn more about traveling Southeast Asia?</p>
+      <ul>
+        <li><a href="https://www.lonelyplanet.com/southeast-asia" target="_blank">Lonely Planet – Southeast Asia Travel Guide</a></li>
+        <li><a href="https://www.tourismthailand.org" target="_blank">Tourism Authority of Thailand</a></li>
+        <li><a href="https://www.indonesia.travel/gb/en/home" target="_blank">Wonderful Indonesia – Official Tourism Site</a></li>
+      </ul>
+
+      <p>Countries visited on this trip:</p>
+      <ol>
+        <li>Thailand 🇹🇭</li>
+        <li>Indonesia 🇮🇩</li>
+        <li>Malaysia 🇲🇾</li>
+        <li>Vietnam 🇻🇳</li>
+      </ol>
+
+      <p><em>Use the slider below to travel through the journey chronologically — drag it left or right to explore each destination.</em></p>
+    </div>
+  </div>
+
+  <!-- SECTION 3: INTERACTIVE TIMELINE -->
+  <div id="timeline-section">
+    <div id="timeline-inner">
+
+      <div id="slider-container">
+        <span class="slider-label">Start</span>
+        <input type="range" id="timeline-slider" min="0" max="3" step="1" value="0" />
+        <span class="slider-label">End</span>
+      </div>
+
+      <div id="scene-display">
+        <p id="scene-date"></p>
+        <h2 id="scene-headline"></h2>
+        <img id="scene-image" src="" alt="Scene image" />
+        <p id="scene-description"></p>
+      </div>
+
+    </div>
+    <p id="last-modified"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
